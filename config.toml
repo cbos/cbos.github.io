@@ -15,3 +15,13 @@ paginate = 5
     rss = true
     favicon = "/images/opentelemetry-icon-color.png"
     avatar = "/images/profile.jpeg"
+
+[params.faro_analytics]
+    endpoint = "https://faro-collector-prod-eu-west-2.grafana.net/collect/68128232fd9ac7f8c29037c86b50c1d7"
+    name = "ceesbos-blog"
+    version = "1.0.0"
+    environment = "production"
+
+[module]
+[[module.imports]]
+    path = 'faro-analytics'

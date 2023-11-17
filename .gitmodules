@@ -1,3 +1,6 @@
 [submodule "themes/gists"]
     path = themes/gists
 	url = https://github.com/cbos/hugo-theme-gists.git
+[submodule "themes/faro-analytics"]
+	path = themes/faro-analytics
+	url = https://github.com/cbos/hugo-faro-analytics.git
