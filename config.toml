@@ -1,0 +1,17 @@
+baseURL = "https://ceesbos.nl/"
+languageCode = "en-US"
+title = "My gists about Observability"
+theme = "gists"
+pygmentsCodeFences = true
+paginate = 5
+
+[params]
+    author = "Cees Bos"
+    resume = "My gists about Observability"
+    description = "Observability enthusiast, always looking for ways to improve software with better observability and what new insights can be gained. Delivering reliable software is always my priority. Combining existing tools often results in new ways to get an even better view. I work for OpenValue as a software engineer and SRE."
+    github = "cbos"
+    mastodon = "https://foojay.social/@cbos"
+    keywords = "blog, technical"
+    rss = true
+    favicon = "/images/opentelemetry-icon-color.png"
+    avatar = "/images/profile.jpeg"
