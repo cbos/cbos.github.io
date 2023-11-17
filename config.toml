@@ -1,4 +1,4 @@
-baseURL = "https://ceesbos.nl/"
+baseURL = "https://ceesbos.nl"
 languageCode = "en-US"
 title = "My gists about Observability"
 theme = "gists"
