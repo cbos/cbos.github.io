@@ -1,3 +1,3 @@
 [submodule "themes/gists"]
-	path = themes/gists
-	url = https://github.com/dmachard/hugo-theme-gists.git
+    path = themes/gists
+	url = https://github.com/cbos/hugo-theme-gists.git
