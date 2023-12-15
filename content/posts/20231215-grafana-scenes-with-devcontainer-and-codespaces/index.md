@@ -1,5 +1,5 @@
 ---
-title: "Grafana Scenes & dev container & Codespaces"
+title: "Grafana Scenes & Codespaces"
 date: 2023-12-15T21:45:00+01:00
 pin: true
 resources:
@@ -11,7 +11,7 @@ tags:
   - Codespaces
 ---
 
-{{< imgproc scenes_and_codespaces Resize "850x" >}}
+{{< imgproc scenes_and_codespaces Resize "359x" >}}
 {{< /imgproc >}}
 
 With Grafana Scenes it is possible to create more than just dashboards. There are options to create dashboards that guide the user.
