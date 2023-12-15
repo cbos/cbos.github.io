@@ -1,8 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
-  "postCreateCommand": "",
+  "postCreateCommand": "git submodule init && git submodule update",
   "postAttachCommand": {
     "server": "hugo serve"
   },
