@@ -1,0 +1,22 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "hugo serve"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.120.4",
+      "extended": true
+    }
+  },
+  "portsAttributes": {
+    "1313": {
+      "label": "Blog",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [1313]
+}
