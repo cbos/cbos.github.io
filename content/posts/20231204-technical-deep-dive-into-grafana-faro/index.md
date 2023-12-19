@@ -13,7 +13,7 @@ tags:
 ---
 As shown in my [previous post](../20231124-blog-observability-with-grafana-faro) you can add Grafana Faro to get more information about users who visit a website, in my case my own blog.
 This is how that setup looks like:
-{{< imgproc faro-setup Resize "850x" >}}
+{{< imgproc faro-setup-cover Resize "850x" >}}
 {{< /imgproc >}}
 
 But what kind of data is available now?

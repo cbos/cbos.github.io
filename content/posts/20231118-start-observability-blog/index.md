@@ -20,7 +20,7 @@ The aim of the AnalysisDashboard was to gain more in control over the quality of
 With the AnalysisDashboard we were able to see more history of a testcase, whether it failed on Windows and/or Linux.
 Over time we were able to get it more and more stable, as we you can see in the image below. **These insights helped us in delivery better quality to our customers**.
 
-{{< imgproc analysisdashboard_job_summary Resize "1000x" >}}
+{{< imgproc analysisdashboard_job_summary_cover Resize "1000x" >}}
 Summary of a Jenkins job, 1 square is 1 day. The result is the 'worse' score of that day
 {{< /imgproc >}}
 

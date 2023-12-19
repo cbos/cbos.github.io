@@ -41,7 +41,7 @@ As this can be embedded in a frontend application, I can use it in my Hugo site.
 ### Local setup or Grafana Cloud
 Grafana Faro can be used in a local setup like this:
 
-{{< imgproc faro-setup Resize "1000x" >}}
+{{< imgproc faro-setup-cover Resize "1000x" >}}
 Local setup with Grafana agent
 {{< /imgproc >}}
 

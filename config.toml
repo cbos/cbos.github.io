@@ -3,7 +3,8 @@ languageCode = "en-US"
 title = "My gists about Observability"
 theme = "gists"
 pygmentsCodeFences = true
-paginate = 5
+paginate = 10
+enableRobotsTXT = true
 
 [params]
     author = "Cees Bos"

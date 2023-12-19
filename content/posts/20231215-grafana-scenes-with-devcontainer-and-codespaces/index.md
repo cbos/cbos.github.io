@@ -11,7 +11,7 @@ tags:
   - Codespaces
 ---
 
-{{< imgproc scenes_and_codespaces Resize "359x" >}}
+{{< imgproc scenes_and_codespaces_cover Resize "359x" >}}
 {{< /imgproc >}}
 
 With Grafana Scenes it is possible to create more than just dashboards. There are options to create dashboards that guide the user.
