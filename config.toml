@@ -6,6 +6,11 @@ pygmentsCodeFences = true
 paginate = 10
 enableRobotsTXT = true
 
+[sitemap]
+  changeFreq = ''
+  filename = 'sitemap.xml'
+  priority = -1
+
 [params]
     author = "Cees Bos"
     resume = "My gists about Observability"
