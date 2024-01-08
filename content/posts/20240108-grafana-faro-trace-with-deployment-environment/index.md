@@ -59,3 +59,7 @@ This is the result:
 
 With this as a result, you can create dashboards where you can distinguish between the different environments.
 And if you use [span metrics](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/connector/spanmetricsconnector), it is possible to split the metrics of the environments with the `dimensions` configuration.
+
+---
+**[ Update Januari 8th 21:30 CET ]**   
+I created a pull request to make it part of the Faro Web SDK https://github.com/grafana/faro-web-sdk/pull/453
