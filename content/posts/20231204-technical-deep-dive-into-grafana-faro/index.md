@@ -26,7 +26,7 @@ But for more dynamic pages, it is very helpful to have more insight.
 
 ### WebVitals and Events
 Data is sent in batches to the Faro endpoint. The data has a JSON structure.
-There is a `meta` section which contains metadata about all the data sent. This includes information about the browser used, but also the `application version' and `library version' used to generate the data.
+There is a `meta` section which contains metadata about all the data sent. This includes information about the browser used, but also the `application version` and `library version` used to generate the data.
 This information is useful for more detailed analysis in case of problems.
 
 {{< imgproc browser_send_data Resize "850x" >}}
