@@ -63,3 +63,6 @@ And if you use [span metrics](https://github.com/open-telemetry/opentelemetry-co
 ---
 **[ Update Januari 8th 21:30 CET ]**   
 I created a pull request to make it part of the Faro Web SDK https://github.com/grafana/faro-web-sdk/pull/453
+
+**[ Update Januari 10th 11:45 CET ]**   
+PR has been approved and merged and will be default from the next release onwards.
