@@ -46,7 +46,8 @@ on guessing or assumptions, but based on (observability) data.
 There are 2 parts to observability. One is the system(s). These systems must provide the actual data. This is not
 done automatically. The systems must be instrumented to provide the data. 
 This requires either manual instrumentation or automatic instrumentation (or a combination of both). 
-The OpenTelemetry libraries are great for this, see [https://opentelemetry.io/docs/languages/](https://opentelemetry.io/docs/languages/)
+The OpenTelemetry libraries are great for this, see [https://opentelemetry.io/docs/languages/](https://opentelemetry.io/docs/languages/)    
+And if you want to know more about this, [this training](https://openvalue.training/observability_for_developers/) can help you with that
 
 The second part is a stack where the data is collected and made available for analysis.    
 I have been using several tools locally for years for all kinds of development and troubleshooting situations.
