@@ -84,7 +84,7 @@ I would like to write a more detailed post about this in the future to show the 
 #### Verifying Actual Behavior
 Another example is when I validated a reliability feature in the framework we use.   
 This validation revealed the actual behavior:
-![](backpressure_bug_discovered.png)
+![](backpressure_bug_found.png)
 The expectation was to have a flat line, but it showed a line with a lot of drops. In the end it appeared to be a bug in a library that had been fixed in the master, but not released.
 This made it harder to find the actual problem, but a deep dive found the problem.
 
