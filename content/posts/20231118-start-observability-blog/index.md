@@ -1,7 +1,7 @@
 ---
 title: "Sharing thoughts and experience via this Observability blog"
 date: 2023-11-18T20:13:23+01:00
-pin: true
+pin: false
 resources:
   - src: "**.{png,jpg,webp}"
     title: "Image #:counter"

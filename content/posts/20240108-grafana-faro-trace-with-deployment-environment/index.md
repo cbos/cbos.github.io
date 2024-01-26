@@ -1,7 +1,7 @@
 ---
 title: "Adding deployment.environment to Grafana Faro traces"
 date: 2024-01-08T20:10:00+01:00
-pin: true
+pin: false
 
 resources:
   - src: "**.{png,jpg,webp}"
