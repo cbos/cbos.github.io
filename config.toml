@@ -5,6 +5,7 @@ theme = "gists"
 pygmentsCodeFences = true
 paginate = 10
 enableRobotsTXT = true
+enableEmoji = true
 
 [sitemap]
   changeFreq = ''
