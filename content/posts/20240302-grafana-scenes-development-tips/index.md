@@ -22,7 +22,7 @@ But how to get started with Grafana Scenes? In this blog post, I will share seve
 Before creating your own app, there are a number of things you can do upfront even before you actually start.
 
 ## 1) Start exploring the scenes demo app
-Grafana Scenes code is available on Github: https://github.com/grafana/scenes    
+Grafana Scenes code is available on GitHub: https://github.com/grafana/scenes    
 In that repository there is a demo app available demonstrating a number of features.
 To be able to run the demo app, you need `node`, `yarn` and `docker`, but that is also what you need for you app as soon as you start developing your own app.
 
@@ -62,7 +62,7 @@ Together with the demo app, this will give you a good understanding of how Grafa
 The documentation includes several pages that describe the features of Grafana Scenes step by step, including the powerful features of tab pages and drill-down pages. These pages explain how to create them.
 
 # Setup
-After you have prepared, here are a number of tips for your setup. You can use them on your local machine or use remote development as a I described in [Grafana scenes with devcontainer and codespaces](../20231215-grafana-scenes-with-devcontainer-and-codespaces)
+After you have prepared, here are a number of tips for your setup. You can use them on your local machine or use remote development as a I described in [Grafana scenes with devcontainer and Codespaces](../20231215-grafana-scenes-with-devcontainer-and-codespaces)
 
 ## 3) Create your plugin 
 
@@ -146,13 +146,13 @@ Start the server and open Grafana again in your browser.
 
 ## 6) Link existing data sources
 For developing a useful app you need data to display. Your local setup will not have that by default. Having the right data, makes the development iterations a lot easier.     
-To solve that you can link existing data sources. You can use the datasource provisioning.    
+To solve that you can link existing data sources. You can use the data source provisioning.    
 Suppose you locally have the [Observability Toolkit](https://github.com/cbos/observability-toolkit) and want to connect your scenes development, then your setup can look like this:
 
 ![](setup_with_datasource_links.png)
 
 As you can see, this gives problems with both Grafana versions on port `3000`. You can change that as described above.
-To link the data sources you can put the datasource provisioning file in `provisioning/datasources` folder.
+To link the data sources you can put the data source provisioning file in `provisioning/datasources` folder.
 
 An example file:
 ```yaml
@@ -173,22 +173,22 @@ datasources:
 In the documentation of Grafana there is more information about [provisioning](https://grafana.com/docs/grafana/latest/administration/provisioning/).    
 Some more example can be found [here](https://github.com/cbos/observability-toolkit/tree/main/config/grafana/provisioning/datasources).    
 
-:warning: You need to keep in mind that both are started with a seperated docker-compose file and both have started with a different docker network.    
+:warning: You need to keep in mind that both are started with a separated docker-compose file and both have started with a different docker network.    
 So either you can link the container to other network or you can expose the data sources to your host machine and `host.docker.internal` for Docker or `host.containers.internal` for Podman as hostnames.
 
 # Building scenes
 
 While building a scene you might wonder how create nice panels. Or you wonder what kind of interaction patterns are possible.
 
-## 7) Inspect panel json
+## 7) Inspect panel JSON
 If you have already an example panel on a dashboard, you can leverage from that knowledge.    
-Either inspect the json of the whole dashboard or use the 'inspect panel JSON' options.
+Either inspect the JSON of the whole dashboard or use the 'inspect panel JSON' options.
 ![](inspect_panel_json.png)
 
-In the json you can see the query details and configuration options for the query runner, you see the configuration options for the panel used.    
+In the JSON you can see the query details and configuration options for the query runner, you see the configuration options for the panel used.    
 If you have overrides defined, you can see how the configuration is of these overrides. 
 Based on this you can create the same overrides with Grafana Scenes.    
-In you app development you will create the panels and queryrunners with Typescript. You can configure them in the same way as specified in JSON, but using Typescript.
+In you app development you will create the panels and query runners with Typescript. You can configure them in the same way as specified in JSON, but using Typescript.
 Most settings have identical names, although some may be slightly different. Utilize code completion in your code editor to find the correct configuration option.
 
 # Get inspired
@@ -196,7 +196,7 @@ Most settings have identical names, although some may be slightly different. Uti
 Creating an app for your use case can be challenging. By seeing other apps, you might get inspired, at least that is how it works for me. New ideas arise based on other apps.
 
 ## 8) Use Application Observability and Frontend Observability as inspiration
-If you are wondering how apps created with Grafana Scenes can look like, please have a look at [Application Observability](https://grafana.com/products/cloud/application-observability/) 
+If you are wondering how apps created with Grafana Scenes can look like, have a look at [Application Observability](https://grafana.com/products/cloud/application-observability/) 
 and [Frontend Observability](https://grafana.com/products/cloud/frontend-observability-for-real-user-monitoring/). As far as I can tell without seeing the code, these are also built with Grafana Scenes.
 
 # Let it grow 
@@ -212,7 +212,7 @@ Developing an app with Grafana Scenes is not different from any other developmen
 ## 10 Contribute
 As Grafana Scenes is [open source](https://github.com/grafana/scenes), it is possible to contribute as well.
 While developing, I noticed areas where Grafana Scenes could be enhanced and some functionality I wanted to use was not working as expected.
-For sure, it is possible to create a ticket at the Github project. 
+For sure, it is possible to create a ticket at the GitHub project. 
 But it is also possible to contribute with a pull request. The advantage is that you can create the change locally, use it in your own app to see if it really works.
 
 The changes I proposed are already merged and part of the release of Grafana Scenes. That is the power of open source, together making it stronger :muscle:.

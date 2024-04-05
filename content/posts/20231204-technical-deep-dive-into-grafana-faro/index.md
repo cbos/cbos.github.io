@@ -55,7 +55,7 @@ But also **javascript errors** are captured **including the stacktrace**. Based 
 
 ### Traces
 Trace data is sent to the Faro Collector endpoint in the same way as all other data.
-Here is the data in Json format. The collector sends it to the configured trace store, in my case Grafana Tempo.
+Here is the data in JSON format. The collector sends it to the configured trace store, in my case Grafana Tempo.
 {{< imgproc browser_send_traces Resize "850x" >}}
 Send trace data
 {{< /imgproc >}}

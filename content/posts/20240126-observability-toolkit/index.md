@@ -55,11 +55,11 @@ I have been using several tools locally for years for all kinds of development a
 > Can you share the setup you locally use?
 
 Last year I was involved in the investigation of major incidents where I used `Promtail`, `Loki` and `Grafana` to find the cause.   
-Colleagues asked: Can you share the setup you use locally? Of course, and I shared a zip file with a `docker-compose.yml` and some config files.   
+Colleagues asked: Can you share the setup you use locally? Of course, and I shared an archive with a `docker-compose.yml` and some configuration files.   
 That is what I want to share with [Observability Toolkit](https://github.com/cbos/observability-toolkit)
 
 ### Setup of Observability Toolkit
-The setup of the Observabilty Toolkit is looks like this:
+The setup of the Observability Toolkit is looks like this:
 ![](setup.png)   
 All the details are described at [https://github.com/cbos/observability-toolkit](https://github.com/cbos/observability-toolkit)
 
@@ -75,7 +75,7 @@ Then I asked if there was an access log file for this particular system and if t
 I got 1Gb of raw files, manually inspecting the files was an endless job.
 
 But luckily I had `promtail`, `loki` and `Grafana`.
-I updated promtail's config, placed the files in a directory that promtail could use to load the files directly into Loki.
+I updated Promtail's configuration, placed the files in a directory that Promtail could use to load the files directly into Loki.
 With Loki I did some parsing and this was the first result:
 ![](response_times.png)
 

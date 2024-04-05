@@ -47,13 +47,13 @@ webTracingScript.onload = () => {
 That is what I added to the Hugo Faro Analytics module:   
 https://github.com/cbos/hugo-faro-analytics/commit/d4aeb1f973d4d38864d580bf32086ac1508d9506   
 
-![git commmit](git_change.png)
+![Git commit](git_change.png)
 
 This is the result:
 
 ![traces with deployment environment](traces_with_deployment_environment.png)
 
-![trace_details](trace_details.png)
+![trace details](trace_details.png)
 
 ### Span metrics per environment
 
@@ -65,4 +65,4 @@ And if you use [span metrics](https://github.com/open-telemetry/opentelemetry-co
 I created a pull request to make it part of the Faro Web SDK https://github.com/grafana/faro-web-sdk/pull/453
 
 **[ Update Januari 10th 11:45 CET ]**   
-PR has been approved and merged and will be default from the next release onwards.
+PR has been approved and merged and will be default from the next release onward.
