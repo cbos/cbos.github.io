@@ -1,6 +1,7 @@
 ---
 title: "Replace Promtail with new Grafana Alloy"
 date: 2024-04-13T13:45:40+01:00
+pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
