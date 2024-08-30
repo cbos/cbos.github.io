@@ -67,3 +67,6 @@ But when check a single trace I can see the span being sent by Checkly and I can
 I really like Checkly's approach and how it has been implemented. The Traces feature looks promising too.
 In a future blog post I would like to explore the Prometheus integration to see what kind of data can be used in Grafana dashboards.   
 I like having it all in one place, so you can see the failure of a check right in your application's dashboard, making correlation much easier.
+
+**[ Update August 30th ]**      
+The mentioned short comings are fixed, see [part 2](../20240830-checkly-and--opentelemetry-traces-part2) for more details
