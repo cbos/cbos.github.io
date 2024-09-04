@@ -11,6 +11,7 @@ tags:
   - Grafana
   - Tempo
   - Checkly
+  - OpenTelemetry
 ---
 
 # Updates from Checkly
