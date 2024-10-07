@@ -4,7 +4,7 @@
   "updateContentCommand": "",
   "postCreateCommand": "git submodule init && git submodule update",
   "postAttachCommand": {
-    "server": "hugo serve --baseURL \"https://${CODESPACE_NAME}-1313.app.github.dev/\" --appendPort=false"
+    "server": "hugo serve -D"
   },
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
