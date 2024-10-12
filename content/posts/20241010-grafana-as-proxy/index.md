@@ -3,6 +3,17 @@ title: "Grafana as proxy"
 date: 2024-10-10T12:23:23Z
 pin: true
 draft: true
+
+resources:
+  - src: "**.{png,jpg,webp}"
+    title: "Image #:counter"
+
+tags:
+  - Grafana
+  - Scenes
+summary:
+  Local development no data sources, use production datasources for local (scenes) plugin development
+
 ---
 
 
