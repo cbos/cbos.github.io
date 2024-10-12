@@ -1,7 +1,6 @@
 ---
 title: "Checkly and OpenTelemetry traces"
 date: 2024-08-21T21:10:40+01:00
-pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
