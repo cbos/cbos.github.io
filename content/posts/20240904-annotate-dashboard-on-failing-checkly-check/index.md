@@ -12,6 +12,11 @@ tags:
   - Prometheus
   - Checkly
   - OpenTelemetry
+summary:
+  The `power of observability` becomes visible when you combine signals and put it all together.   
+  Checks performed by Checkly can provide a piece of the puzzle that gives you a better view of what is happening.   
+  It would be really nice if you could `combine` the data from `Checkly` in the same `Grafana dashboards` as your other observability data.
+  This post describes how to bring it together and how to add Grafana `annotations` to your dashboard based on Checkly results.
 ---
 
 # The power of observability
