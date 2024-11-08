@@ -2,7 +2,6 @@
 title: "Grafana as proxy"
 date: 2024-11-08T14:43:23Z
 pin: true
-draft: true
 
 resources:
   - src: "**.{png,jpg,webp}"
