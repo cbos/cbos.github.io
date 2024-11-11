@@ -53,6 +53,14 @@
             {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
             <guid>{{ .Permalink }}</guid>
             <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
+            {{- $images := partial "_funcs/get-page-images" . }}
+            {{- with index $images 0 }}
+                {{- with .Image }}
+                    {{ with .Process "resize 1100x crop 1200x630 center jpeg" }}
+                    <enclosure length="0" type="image/jpeg" url="{{ .Permalink }}"/>
+                    {{- end }}
+                {{- end }}
+            {{- end }}
         </item>
         {{- end }}
     </channel>
