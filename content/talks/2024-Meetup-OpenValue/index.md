@@ -22,14 +22,14 @@ talk:
   url: https://www.meetup.com/openvalue/events/304584476/
   title: How I solved production issues with OpenTelemetry (and how you can too)
   abstract:
-    In today's fast-paced world, ensuring the reliability of your Java applications is critical. But how do you effectively identify and resolve production issues before they escalate? With cloud-native applications, it can be even more difficult because you can't log into the system to get some of the data you need. The answer lies in observability - and more specifically, OpenTelemetry.<BR>
-       <BR> 
-    In this session, I'll take you behind the scenes of several production problems I've solved using OpenTelemetry. You'll learn how I uncovered critical problems that were invisible without the right telemetry data - and how you can do the same. From tracking down elusive bugs with traces to uncovering system bottlenecks with metrics, OpenTelemetry provides the tools you need to truly understand what's happening in your application in real time.<BR>   
-        <BR>
-    A key concept in all this are traces, especially in microservices landscapes. That's because architecture diagrams often don't tell the whole story. I'll show you how these traces can help you build a service graph and save you hours in a crisis. A service graph gives you the overview and helps you to pinpoint where to look for problems.<BR><BR>
-    Whether you're new to observability or an experienced professional, this session will give you the practical insights and tools to dramatically improve the observability of your application - and change the way you handle production issues. Solving problems is much easier when you have the right data at your fingertips.
-
-
+    Ensuring the reliability of your Java applications is critical in today's fast-paced world. But how do you identify and fix production issues before they get worse? With cloud-native applications, it can be even more difficult because you can't log into the system to get some of the data you need. The answer lies in observability - and in particular, OpenTelemetry.<BR>
+    <BR>
+    In this session, I'll show you how I used OpenTelemetry to solve several production problems. You'll learn how I uncovered critical issues that were invisible without the right telemetry data - and how you can do the same. OpenTelemetry provides the tools you need to understand what's happening in your application in real time, from tracking down hidden bugs to uncovering system bottlenecks. These solutions have significantly improved our applications' performance and reliability.<BR>
+    <BR>
+    A key concept we will use is traces. Architecture diagrams often don't tell the whole story, especially in microservices landscapes. I'll show you how traces can help you build a service graph and save you hours in a crisis. A service graph gives you an overview and helps to find problems.<BR>
+    <BR>
+    Whether you're new to observability or a seasoned professional, this session will give you practical insights and tools to improve your application's observability and change the way how you handle production issues. Solving problems is much easier with the right data at your fingertips.
+    
 
 ---
 
