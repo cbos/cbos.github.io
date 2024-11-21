@@ -19,6 +19,7 @@ enableEmoji = true
     github = "cbos"
     mastodon = "https://foojay.social/@cbos"
     sessionize = "https://sessionize.com/cbos"
+    bluesky = "https://bsky.app/profile/ceesbos.nl"
     keywords = "blog, technical"
     rss = true
     favicon = "/images/opentelemetry-icon-color.png"
