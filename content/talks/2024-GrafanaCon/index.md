@@ -32,8 +32,10 @@ talk:
 carousel:
     images:
       - image: grafanacon.jpg
+      - image: champions.jpg
       - image: presenting.jpg
       - image: presenting2.jpg
+      - image: badge.jpg
       - image: unconference.jpg
         content_html: "Unconference topics, explore traces as first"
       - image: unconference2.jpg
