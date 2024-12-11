@@ -1,2 +1,2 @@
 # cbos.github.io
-Github page for my account
+Github page for my account hosted at https://ceesbos.nl
