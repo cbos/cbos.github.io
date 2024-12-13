@@ -31,5 +31,18 @@ talk:
     Whether you're new to observability or a seasoned professional, this session will give you practical insights and tools to improve your application's observability and change the way how you handle production issues. Solving problems is much easier with the right data at your fingertips.
     
 
+carousel:
+  images:
+    - image: presenting.jpg
+
 ---
 
+
+#### Talk
+
+{{< youtube id=qVnWlOLepnM controls=true allowFullScreen=true  >}}
+
+
+#### Photos
+
+{{< carousel items="1" height="600" unit="px" duration="5000" >}}
