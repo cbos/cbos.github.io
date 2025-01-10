@@ -1,6 +1,6 @@
 ---
 title: "Application Observability Code Challenges"
-date: 2025-01-10T14:43:23Z
+date: 2025-01-10T12:44:23Z
 pin: true
 
 resources:
@@ -39,42 +39,47 @@ Observability data can help you make that decision.
 
 The goal of these code challenges is to practice and gain more experience in both making your application observable and using the observability tools.
 
-# Goals
+## Goals
 The goals of the challenges:
-- Have fun!
-- Learn to understand the behaviour of the code
-- Learn how to use observability tools to understand code behaviour
-- Spot the unexpected behaviour 😀!
-- Practice and learn!
-- Share your findings and solution, either as a comment or as a pull request.
+- 🎉 - Have fun !
+- 🖵 - Learn to understand the behaviour of the code
+- 📈 - Learn how to use observability tools to understand code behaviour 📈
+- 🔍 - Spot the unexpected behaviour!
+- 🤗 - Practice and learn!
+- 🎁 - Share your findings and solution, either as a comment or as a pull request
 
 The goal is not to discuss the libraries, frameworks or specific code implementation used, but to practice and learn!
 
 ## What do the code challenges look like?
 
-The first challenge is currently in preparation, but the plan is that you can easily run it locally.
+The first challenge is currently in preparation, but the plan is that you can easily run it locally.   
 My background is in Java development, so most of the challenges I will provide will be Java challenges. I have a number of them in mind.
 
-Using the [Observability Toolkit](https://github.com/cbos/observability-toolkit) you can easily spin up OpenTelemetry and Grafana based observability tools.
-You can then run a sample application and a test script.
+The challenge will be available in a git repository, all prepared to run on your system as smooth as possible.
+The application will already produce some telemetry data with OpenTelemetry.  
+The **challenge** is to find the problem and **extend the observability** to get better insights and also **proof** that a potential **solution works** as expected.
+
+Using the [Observability Toolkit](https://github.com/cbos/observability-toolkit) you can easily spin up OpenTelemetry and Grafana based observability tools.   
+You can then run a sample application and a test script.   
 In Grafana you can see the first results, then it is up to you to continue. Some hints will be provided.
 
-The whole setup will look like this
+The whole setup will look like this:    
 ![Application Observability flow](flow.png)
 
 ## Online environment(s)
 
-Besides running it locally, I am also preparing a guided online environment with Killercoda, [https://killercoda.com/observability-code-challenges](https://goto.ceesbos.nl/aocckk).
+Besides running it locally, I am also preparing a guided online environment with Killercoda, [https://killercoda.com/observability-code-challenges](https://goto.ceesbos.nl/aocckk).   
 That way you don't have to mess with your local machine and it will give you some more guidance.
 
 I may also add a setup with devcontainers so you can easily run it in other ways. Please let me know if you are interested.
 
 ## Your own stack
 
-If you usually use other observability tools, I encourage you to use them!  
+If you usually use other observability tools, I encourage you to use them!   
 The sample application is prepared to send data using OpenTelemetry, so any setup that supports OTLP will work.
 
 ![Application Observability flow with own stack](flow_with_own_stack.png)
 
-## First challenge coming soon!
-The first challenge is not ready yet, but it is on its way! It will be published on my blog https://ceesbos.nl and I will post it on some other channels as well.
+## 📣 First challenge coming soon!
+The first challenge is not ready yet, but it is on its way!   
+It will be published on my blog https://ceesbos.nl and I will post it on some other (social media) channels as well.
