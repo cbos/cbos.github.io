@@ -12,6 +12,10 @@ tags:
   - Loki
   - Promtail
   - Alloy
+
+slug: replace-promtail-with-alloy
+aliases:
+  - 20240413-replace-promtail-with-alloy
 ---
 
 An announcement was made at GrafanaCON. [Alloy](https://grafana.com/blog/2024/04/09/grafana-alloy-opentelemetry-collector-with-prometheus-pipelines/) is introduced in the family of Grafana tools. 

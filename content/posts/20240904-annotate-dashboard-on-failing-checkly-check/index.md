@@ -12,6 +12,11 @@ tags:
   - Prometheus
   - Checkly
   - OpenTelemetry
+
+slug: annotate-dashboard-on-failing-checkly-check
+aliases:
+  - 20240904-annotate-dashboard-on-failing-checkly-check  
+
 summary:
   The `power of observability` becomes visible when you combine signals and put it all together.   
   Checks performed by Checkly can provide a piece of the puzzle that gives you a better view of what is happening.   

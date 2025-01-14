@@ -11,6 +11,10 @@ tags:
   - Tempo
   - Checkly
   - OpenTelemetry
+
+slug: checkly-and-opentelemetry-traces-part2
+aliases:
+  - 20240830-checkly-and--opentelemetry-traces-part2
 ---
 
 # Updates from Checkly

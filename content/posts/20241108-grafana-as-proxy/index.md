@@ -10,6 +10,11 @@ resources:
 tags:
   - Grafana
   - Scenes
+  
+slug: grafana-as-proxy
+aliases:
+  - 20241108-grafana-as-proxy
+
 summary:
   Your `local development` of a Grafana plugin or dashboard may lack representative data. Connecting to production data sources may be impossible, but there are other ways to connect.
   Read more to find out how to `use Grafana as a proxy` to access the data.

@@ -10,6 +10,10 @@ resources:
 tags:
   - Grafana
   - Scenes
+
+slug: grafana-scenes-development-tips
+aliases:
+  - 20240302-grafana-scenes-development-tips
 ---
 
 Grafana Scenes can enhance your experience with Grafana dashboards by bringing observability data together and guiding users to the right data.  

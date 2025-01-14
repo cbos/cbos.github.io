@@ -9,6 +9,10 @@ tags:
   - Grafana
   - Scenes
   - Codespaces
+
+slug: grafana-scenes-with-devcontainer-and-codespaces
+aliases:
+  - 20231215-grafana-scenes-with-devcontainer-and-codespaces
 ---
 
 {{< imgproc scenes_and_codespaces_cover Resize "359x" >}}

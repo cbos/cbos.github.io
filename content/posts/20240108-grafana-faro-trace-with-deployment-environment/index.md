@@ -13,6 +13,10 @@ tags:
   - Tempo
   - Hugo
   - Traces
+
+slug: grafana-faro-trace-with-deployment-environment
+aliases:
+  - 20240108-grafana-faro-trace-with-deployment-environment
 ---
 
 One of the great things about OpenTelemetry is the standardisation of span attributes and resource attributes.   

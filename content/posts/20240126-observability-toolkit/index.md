@@ -14,6 +14,10 @@ tags:
   - Tempo
   - Prometheus
   - OpenTelemetry
+
+slug: observability-toolkit
+aliases:
+  - 20240126-observability-toolkit
 ---
 
 **Deep understanding of the actual behavior of a system** is key for me. I like to know all the details because it helps me to see the whole picture.

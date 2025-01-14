@@ -12,6 +12,10 @@ tags:
   - Loki
   - Tempo
   - Hugo
+
+slug: blog-observability-with-grafana-faro
+aliases:
+  - 20231124-blog-observability-with-grafana-faro
 ---
 If you use [Hugo](https://gohugo.io/) to create a blog or website, as I do, and you use [GitHub Pages](https://pages.github.com/) to host the blog, it's hard to get observability signals in your usual observability stack.
 I have been using Grafana, Loki, Tempo and Prometheus for a long time, so using this stack makes sense to me.    

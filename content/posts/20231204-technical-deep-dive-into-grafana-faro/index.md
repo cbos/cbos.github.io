@@ -10,6 +10,10 @@ tags:
   - Faro
   - Loki
   - Tempo
+
+slug: technical-deep-dive-into-grafana-faro
+aliases:
+  - 20231204-technical-deep-dive-into-grafana-faro
 ---
 As shown in my [previous post](../20231124-blog-observability-with-grafana-faro) you can add Grafana Faro to get more information about users who visit a website, in my case my own blog.
 This is how that setup looks like:

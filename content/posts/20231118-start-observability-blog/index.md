@@ -5,6 +5,10 @@ pin: false
 resources:
   - src: "**.{png,jpg,webp}"
     title: "Image #:counter"
+
+slug: start-observability-blog
+aliases:
+  - 20231118-start-observability-blog
 ---
 
 I am passionate about Observability already for a long time. Monitoring tools have been helping me already for quite some years to get insights in the behavior of a service and especially a landscape of services.
