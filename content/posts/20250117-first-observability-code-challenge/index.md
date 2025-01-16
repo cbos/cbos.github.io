@@ -1,6 +1,6 @@
 ---
 title: "Application Observability Code Challenge 1"
-date: 2025-01-15T12:44:23Z
+date: 2025-01-17T12:44:23Z
 pin: true
 draft: true
 
@@ -25,13 +25,13 @@ summary:
 ![Application Observability Code Challenge 1](aocc_challenge01_small.png)
 
 The first challenge of the Application Observability Code Challenges is now available.   
-See the [announcement blog](../application-observability-code-challenges) for more information about the challanges in general.
+See the [announcement blog](../application-observability-code-challenges) for more information about the challenges in general.
 The goal is to have fun and learn in the first place.
 
 > 🚨 **Challenge**:
 > - Run the sample application
 > - Run the tests to see what happens
-> - Try to find out what is happens, make a hypothesis❗
+> - Try to find out what happens, make a hypothesis❗
 > - **Improve the observability** of the application to **prove the hypothesis**
 > - Optional: fix the problem and **prove it with observability data that it is really fixed**
 > - Optional, but highly appreciated 🙏: Share your findings, insights you learned and potential solution, either as a ['discussion'](https://github.com/cbos/application-observability-code-challenges/discussions) or as a pull request
