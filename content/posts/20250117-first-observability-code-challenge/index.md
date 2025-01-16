@@ -1,6 +1,6 @@
 ---
 title: "Application Observability Code Challenge 1"
-date: 2025-01-17T12:44:23Z
+date: 2025-01-16T12:44:23Z
 pin: true
 draft: true
 
@@ -28,24 +28,27 @@ The first challenge of the Application Observability Code Challenges is now avai
 See the [announcement blog](../application-observability-code-challenges) for more information about the challenges in general.
 The goal is to have fun and learn in the first place.
 
-> 🚨 **Challenge**:
-> - Run the sample application
-> - Run the tests to see what happens
-> - Try to find out what happens, make a hypothesis❗
-> - **Improve the observability** of the application to **prove the hypothesis**
-> - Optional: fix the problem and **prove it with observability data that it is really fixed**
-> - Optional, but highly appreciated 🙏: Share your findings, insights you learned and potential solution, either as a ['discussion'](https://github.com/cbos/application-observability-code-challenges/discussions) or as a pull request
+### 🔍 The Challenge
+- Run the sample application
+- Run the tests to see what happens
+- Try to find out what happens, make a hypothesis❗
+- **Improve the observability** of the application to **prove the hypothesis**
+- Optional: fix the problem and **prove it with observability data that it is really fixed**
+- Optional, but highly appreciated 🙏: Share your findings, insights you learned and potential solution, either as a ['discussion'](https://github.com/cbos/application-observability-code-challenges/discussions) or as a pull request
 
-### Run local or with an online environment
-All details of the challenge are available at [https://github.com/cbos/application-observability-code-challenges/tree/main/challenge-01](https://goto.ceesbos.nl/ghch01)
-An online guided environment is available with KillerCode, see [https://killercoda.com/observability-code-challenges](https://goto.ceesbos.nl/aocckk)
-
+### 🛠️ How to Get Started   
+All the details you need to jump in can be found here:   
+👉 [https://github.com/cbos/application-observability-code-challenges/tree/main/challenge-01](https://goto.ceesbos.nl/ghch01)   
+Prefer an online environment? No problem! Use KillerCode to get started with just a few clicks:   
+👉 [https://killercoda.com/observability-code-challenges](https://goto.ceesbos.nl/aocckk)
+    
 ### Challenge details
 
-- The sample application is a simple Spring Boot application with a REST endpoint implemented in Jersey/JAX-RS.
-- The application is instrumented using OpenTelemetry auto instrumentation.
+- The sample application is a simple **Spring Boot** application with a REST endpoint implemented in Jersey/JAX-RS.
+- The application is instrumented using **OpenTelemetry** auto instrumentation.
 - You can either run the application with Docker or directly.
-- K6 load scripts are prepared to run tests that provide more insight into the issues.
+- Pre-configured **K6 load scripts** to simulate traffic and reveal performance bottlenecks.
+- You can use the **pre-configured [Observability Toolkit](../observability-toolkit)** or you can use your own Observability stack
 
 The setup looks like this:
 ![Setup](k6_application_setup.png)
@@ -55,7 +58,7 @@ After running one of the scripts you can get more details in a Grafana dashboard
 
 In this screenshot you can see that the application is reaching a limit for some reason, more load does not give more requests per second and with more load the response times increase a lot.
 
-Go to the challenge: [https://github.com/cbos/application-observability-code-challenges/tree/main/challenge-01](https://goto.ceesbos.nl/ghch01)
+👉 Go to the challenge: [https://github.com/cbos/application-observability-code-challenges/tree/main/challenge-01](https://goto.ceesbos.nl/ghch01)
 
 ### Feedback?
 
