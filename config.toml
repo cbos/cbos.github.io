@@ -17,6 +17,7 @@ enableEmoji = true
     resume = "My gists about Observability"
     description = "Observability enthusiast and Grafana Champion, always looking for ways to improve software with better observability and what new insights can be gained. Delivering reliable software is always my priority. Combining existing tools often results in new ways to get an even better view. I work for OpenValue as a software & observability engineer and SRE."
     github = "cbos"
+    linkedin = "https://www.linkedin.com/in/ceesbos/"
     mastodon = "https://foojay.social/@cbos"
     sessionize = "https://sessionize.com/cbos"
     bluesky = "https://bsky.app/profile/ceesbos.nl"
