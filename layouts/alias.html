@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+<head>
+    <title>Redirect {{ .Permalink }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    {{ if .Site.Params.favicon }}
+    <link rel="icon" type="image/x-icon" href='{{ .Site.Params.favicon  }}'>
+    {{ else }}
+    <link rel="icon" type="image/x-icon" href='{{ "images/favicon.ico" | absURL }}'>
+    {{ end }}
+    <meta name="theme-color" content="#1e2327">
+
+    <meta name="description"
+          content="{{ if .IsHome }}{{ .Site.Params.tagline }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+    <meta name="keywords"
+          content='{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}' />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Twitter Card -->
+    {{ template "_internal/twitter_cards.html" . }}
+
+    <!-- OG data -->
+    {{ template "_internal/opengraph.html" . }}
+
+    <!-- RSS -->
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+
+    <!-- JSON Feed -->
+    {{ with .OutputFormats.Get "json" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
+    {{ end }}
+
+    {{ partial "faro-analytics/assets/js" . }}
+    <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+</head>
+</html>
