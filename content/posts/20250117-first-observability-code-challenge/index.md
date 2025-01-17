@@ -1,8 +1,7 @@
 ---
 title: "Application Observability Code Challenge 1"
-date: 2025-01-16T12:44:23Z
+date: 2025-01-17T13:29:23Z
 pin: true
-draft: true
 
 resources:
   - src: "**.{png,jpg,webp}"
@@ -48,21 +47,22 @@ Prefer an online environment? No problem! Use KillerCode to get started with jus
 - The application is instrumented using **OpenTelemetry** auto instrumentation.
 - You can either run the application with Docker or directly.
 - Pre-configured **K6 load scripts** to simulate traffic and reveal performance bottlenecks.
-- You can use the **pre-configured [Observability Toolkit](../observability-toolkit)** or you can use your own Observability stack
+- You can use the **pre-configured [Observability Toolkit](../observability-toolkit)** or you can use **your own Observability stack**
 
 The setup looks like this:
-![Setup](k6_application_setup.png)
+![Setup](full_setup.png)
 
 After running one of the scripts you can get more details in a Grafana dashboard like this:
-![K6 dashboard](k6_highload_dashboard.png)
+![K6 dashboard](k6_highload_dashboard.png)    
 
-In this screenshot you can see that the application is reaching a limit for some reason, more load does not give more requests per second and with more load the response times increase a lot.
+In this screenshot you can see that the application is **reaching a limit for some reason**, more load does not give more requests per second and **with more load the response times increase** a lot.
+Are you able to improve the observability, find the cause and maybe even fix it?
 
 👉 Go to the challenge: [https://github.com/cbos/application-observability-code-challenges/tree/main/challenge-01](https://goto.ceesbos.nl/ghch01)
 
 ### Feedback?
 
-If you have any feedback, please let me know. You can leave a comment below, send me a message on Bluesky, Mastodon, LinkedIn or in the ['discussion'](https://github.com/cbos/application-observability-code-challenges/discussions) section of the challenge's Github repository .
+If you have any feedback, please let me know. You can leave a comment below, send me a message on [Bluesky](https://bsky.app/profile/ceesbos.nl), [Mastodon](https://foojay.social/@cbos), [LinkedIn](https://www.linkedin.com/in/ceesbos/) or in the ['discussion'](https://github.com/cbos/application-observability-code-challenges/discussions) section of the challenge's Github repository .
 
 
 
