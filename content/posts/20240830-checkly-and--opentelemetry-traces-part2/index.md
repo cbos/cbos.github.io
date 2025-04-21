@@ -15,6 +15,8 @@ tags:
 slug: checkly-and-opentelemetry-traces-part2
 aliases:
   - 20240830-checkly-and--opentelemetry-traces-part2
+summary:
+  Updates from Checkly Based on my previous post I have been in contact with Checkly about two parts that were not working as expected. I have some updates on these topics today. Sending traces from Checkly to Tempo In the previous post I mentioned that the traces in my Grafana environment showed root span not yet received. The root span was not available. This requires Checkly to send these spans to my environment as well.
 ---
 
 # Updates from Checkly

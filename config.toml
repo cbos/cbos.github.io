@@ -3,9 +3,13 @@ languageCode = "en-US"
 title = "My gists about Observability"
 theme = "gists"
 pygmentsCodeFences = true
-paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
+
+[pagination]
+    disableAliases = false
+    pagerSize = 10
+    path = 'page'
 
 [sitemap]
   changeFreq = ''

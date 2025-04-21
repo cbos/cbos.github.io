@@ -22,6 +22,8 @@ aliases:
 One of the great things about OpenTelemetry is the standardisation of span attributes and resource attributes.   
 An example of this is `deployment.environment`.
 
+<!--more-->
+
 | Attribute  | Type | Description  | Examples  | Requirement Level |
 |---|---|---|---|---|
 | `deployment.environment` | string | Name of the [deployment environment](https://wikipedia.org/wiki/Deployment_environment) (aka deployment tier). | `staging`; `production` | Recommended |

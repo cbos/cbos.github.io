@@ -19,7 +19,7 @@ aliases:
 ---
 If you use [Hugo](https://gohugo.io/) to create a blog or website, as I do, and you use [GitHub Pages](https://pages.github.com/) to host the blog, it's hard to get observability signals in your usual observability stack.
 I have been using Grafana, Loki, Tempo and Prometheus for a long time, so using this stack makes sense to me.    
-You can use Google Analytics with Hugo, but I don't like third party cookies. If you search for `Google Analytics' and `GDPR' you will find quite a few articles about the concerns that exist on this topic.
+You can use Google Analytics with Hugo, but I don't like third party cookies. If you search for `Google Analytics` and `GDPR` you will find quite a few articles about the concerns that exist on this topic.
 But even apart from that, I like to see what I can get into the observability stack that I know.
 
 ### No webserver, no metrics and logs?!

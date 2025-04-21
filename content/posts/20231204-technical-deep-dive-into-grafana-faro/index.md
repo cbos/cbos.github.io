@@ -14,6 +14,9 @@ tags:
 slug: technical-deep-dive-into-grafana-faro
 aliases:
   - 20231204-technical-deep-dive-into-grafana-faro
+  
+summary:
+  As shown in my previous post you can add Grafana Faro to get more information about users who visit a website, in my case my own blog. This is how that setup looks like. But what kind of data is available now? Data sent by the browser The libraries from the Web SDK collect technical details about the browser interaction. The goal is not to track users, but to collect all sorts of technical data to see if there are problems with the web pages and what the perceived performance is for the users.
 ---
 As shown in my [previous post](../20231124-blog-observability-with-grafana-faro) you can add Grafana Faro to get more information about users who visit a website, in my case my own blog.
 This is how that setup looks like:

@@ -15,6 +15,8 @@ tags:
 slug: checkly-and-opentelemetry-traces
 aliases:
   - 20240821-checkly-and--opentelemetry-traces
+summary:
+  Checkly This week I came across Checkly, a code-first synthetic monitoring solution that can do API checks and browser checks using PlayWright. It would have saved me a lot of time if this had been around 8 years ago. At that time I was working on a project where we were doing some external checks with a vendor like Checkly, but it was all manual configuration in a web interface. And internally we had a checker tool running that did all sorts of internal checks, both HTTP checks and database checks.
 ---
 
 # Checkly

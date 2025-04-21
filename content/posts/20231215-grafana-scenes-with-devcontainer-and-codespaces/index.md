@@ -13,6 +13,8 @@ tags:
 slug: grafana-scenes-with-devcontainer-and-codespaces
 aliases:
   - 20231215-grafana-scenes-with-devcontainer-and-codespaces
+summary:
+  With Grafana Scenes it is possible to create more than just dashboards. There are options to create dashboards that guide the user. Deep dives with drill down pages can help to analyse problems. And with a feature like time range comparison it is even possible to use a feature that is not available with normal dashboards. But how do you start developing with Grafana Scenes? One trend is to develop remotely, rather than on your local machine.
 ---
 
 {{< imgproc scenes_and_codespaces_cover Resize "359x" >}}
