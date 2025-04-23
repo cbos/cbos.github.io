@@ -35,6 +35,10 @@ enableEmoji = true
     name = "ceesbos-blog"
     version = "1.0.0"
 
+[params.goatcounter]
+    prod_url = "https://visit.ceesbos.nl"
+    dev_url = "https://goatcounter.casa.ceesbos.nl"
+
 [module]
 [[module.imports]]
     path = 'faro-analytics'
