@@ -39,6 +39,10 @@ enableEmoji = true
     prod_url = "https://visit.ceesbos.nl"
     dev_url = "https://goatcounter.casa.ceesbos.nl"
 
+[params.goto]
+    prod_url = "https://goto.ceesbos.nl"
+    dev_url = "http://localhost:8080"
+
 [module]
 [[module.imports]]
     path = 'faro-analytics'
