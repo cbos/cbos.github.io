@@ -28,3 +28,24 @@ magick convert unconference2.jpg -distort SRT -90  unconf_rotate.jpg
 ```shell
 just create-post "New Title"
 ```
+
+# Alerts which can be used
+See https://gohugo.io/render-hooks/blockquotes/#alerts
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+> [!QUESTION]
+> Advises about risks or negative outcomes of certain actions.
