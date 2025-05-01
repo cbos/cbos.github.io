@@ -60,12 +60,12 @@ I have been using several tools locally for years for all kinds of development a
 
 Last year I was involved in the investigation of major incidents where I used `Promtail`, `Loki` and `Grafana` to find the cause.   
 Colleagues asked: Can you share the setup you use locally? Of course, and I shared an archive with a `docker-compose.yml` and some configuration files.   
-That is what I want to share with [Observability Toolkit](https://github.com/cbos/observability-toolkit)
+That is what I want to share with [Observability Toolkit](https://goto.ceesbos.nl/observability-toolkit)
 
 ### Setup of Observability Toolkit
 The setup of the Observability Toolkit is looks like this:
 ![](setup.png)   
-All the details are described at [https://github.com/cbos/observability-toolkit](https://github.com/cbos/observability-toolkit)
+All the details are described at [https://github.com/cbos/observability-toolkit](https://goto.ceesbos.nl/observability-toolkit)
 
 ### Use cases
 These tools are like a Swiss army knife to me. There are many situations where I have used them to learn about the application and its actual behavior.

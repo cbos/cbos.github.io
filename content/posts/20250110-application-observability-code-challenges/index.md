@@ -64,7 +64,7 @@ The challenge will be available in a git repository, all prepared to run on your
 The application will already produce some telemetry data with OpenTelemetry.  
 The **challenge** is to find the problem and **extend the observability** to get better insights and also **proof** that a potential **solution works** as expected.
 
-Using the [Observability Toolkit](https://github.com/cbos/observability-toolkit) you can easily spin up OpenTelemetry and Grafana based observability tools.   
+Using the [Observability Toolkit](https://goto.ceesbos.nl/observability-toolkit) you can easily spin up OpenTelemetry and Grafana based observability tools.   
 You can then run a sample application and a test script.   
 In Grafana you can see the first results, then it is up to you to continue. Some hints will be provided.
 

@@ -21,7 +21,7 @@ aliases:
 An announcement was made at GrafanaCON. [Alloy](https://grafana.com/blog/2024/04/09/grafana-alloy-opentelemetry-collector-with-prometheus-pipelines/) is introduced in the family of Grafana tools. 
 Alloy is an open source distribution of the OpenTelemetry Collector, but is will also replace Promtail.
 
-In the [Observability Toolkit](https://github.com/cbos/observability-toolkit) I use both Promtail and OpenTelemetry Collector, so it makes sense to merge them.   
+In the [Observability Toolkit](https://goto.ceesbos.nl/observability-toolkit) I use both Promtail and OpenTelemetry Collector, so it makes sense to merge them.   
 In this blog post I will replace Promtail with Alloy. In another post I will see how replacing of OpenTelemetry Collector with Alloy will look like.
 
 ![Replace Promtail with Alloy](replace_promtail_with_alloy.png)

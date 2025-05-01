@@ -151,7 +151,7 @@ Start the server and open Grafana again in your browser.
 ## 6) Link existing data sources
 For developing a useful app you need data to display. Your local setup will not have that by default. Having the right data, makes the development iterations a lot easier.     
 To solve that you can link existing data sources. You can use the data source provisioning.    
-Suppose you locally have the [Observability Toolkit](https://github.com/cbos/observability-toolkit) and want to connect your scenes development, then your setup can look like this:
+Suppose you locally have the [Observability Toolkit](https://goto.ceesbos.nl/observability-toolkit) and want to connect your scenes development, then your setup can look like this:
 
 ![](setup_with_datasource_links.png)
 
