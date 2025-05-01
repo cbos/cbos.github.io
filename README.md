@@ -7,7 +7,6 @@ Github page for my account hosted at https://ceesbos.nl
 git clone --recurse-submodules --depth 1 git@github.com:cbos/cbos.github.io.git
 ```
 
-
 # Image resize with ImageMagick
 
 Documentation about convert: https://imagemagick.org/script/convert.php
@@ -21,4 +20,11 @@ magick convert image.png -resize 50% image_resized.png
 
 # Rotate
 magick convert unconference2.jpg -distort SRT -90  unconf_rotate.jpg
+```
+
+
+# Create posts
+
+```shell
+just create-post "New Title"
 ```
