@@ -85,6 +85,13 @@ The sample application is prepared to send data using OpenTelemetry, so any setu
 
 ![Application Observability flow with own stack](flow_with_own_stack.png)
 
-## 📣 First challenge coming soon!
-The first challenge is not ready yet, but it is on its way!   
-It will be published on my blog https://ceesbos.nl and I will post it on some other (social media) channels as well.
+## 📣 Challenges
+
+
+
+| Challlenge                 | Description                                                                                                                                                                        | Explanation                                                 |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [1](../aocc-challenge-01)  | A simple Spring Boot application with a REST endpoint implemented in Jersey/JAX-RS with unexpected behaviour. Can you find out what is happening based on the observability data?  | [step by step revealed](../aocc-challenge-01-step-by-step)  |
+
+
+
