@@ -43,6 +43,12 @@ enableEmoji = true
     prod_url = "https://goto.ceesbos.nl"
     dev_url = "http://localhost:8080"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
 [module]
 [[module.imports]]
     path = 'faro-analytics'
