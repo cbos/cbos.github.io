@@ -1,7 +1,6 @@
 ---
 title: " Challenge 1 - step by step revealed"
-date: 2025-05-01T11:58:54+02:00
-draft: true
+date: 2025-05-02T16:30:54+02:00
 pin: true
 
 resources:
@@ -25,7 +24,8 @@ summary:
 
 ![Application Observability Code Challenge 1 step by step revealed](challenge01_revealed.png)
 
-> [!CAUTION] **Spoiler alert** 
+> [!CAUTION]
+> **Spoiler alert**   
 > This page contains a step by step explanation of [challenge 1](../aocc-challenge-01). 
 
 At the start of the [Application Observability Code Challenges](../application-observability-code-challenges) I described observability as:
@@ -45,7 +45,7 @@ This is a screenshot of a part of the dashboard showing the request rate, durati
 ![Service metrics rate, duration and threads](service_metrics_rate_duration_threads.png)
 In the blocks I marked when the 3 scripts were executed.
 
-> [!QUESTION]
+> [!TIP]
 > What can we learn from these metrics?
 
 ## Request rate panel (on top)
@@ -58,7 +58,7 @@ I did not take the full screenshot, but after this it even goes way up, which ar
 
 ## JVM Threads
 The thread panel shows a very consistent number of threads. Even with 40 concurrent users during the second test run, the number of threads does not increase much.
-This indicates that at least one thread is not being created per user.
+If it would have created a thread per user, there would be much more threads, but that is not the case.
 
 ## Tomcat threads
 This is also supported by the panel with Tomcat threads.
@@ -70,7 +70,7 @@ And this is also expected, as our application uses `async' message handling. In 
 Can we see any special behaviour regarding memory usage? Not really, it behaves normally. The garbage collector kicks in from time to time and is able to free the memory as expected.
 ![Service metrics memory](service_metrics_memory.png)
 
-> [!QUESTION]
+> [!TIP]
 > What about traces?
 
 A trace has also been created for each request. What can we learn from those traces?
@@ -85,7 +85,7 @@ This is an example trace:
 
 Unfortunately we cannot see anything based on this, we can see that it took 2 seconds to process this request, no further details...
 
-> [!QUESTION]
+> [!TIP]
 > What can we do to improve the observability to get more insight?
 
 What kind of additional information can we extract from the application to get more information about what is going on?
@@ -185,7 +185,7 @@ public class ManagedAsyncExecutorProvider extends ThreadPoolExecutorProvider {
 ```
 **But wait... we did not see the number of threads increase during the runs. How does the executor handle the tasks? Does it scale properly?
 
-> [!QUESTION]
+> [!TIP]
 > What can we do to improve the observability of the async executor?
 
 ## Extending instrumentation with the OpenTelemetry API
@@ -283,13 +283,16 @@ The results of the K6 test will not be different, but we will have more metrics 
 We can use Grafana's 'Explore' feature or drill down metrics feature as long as we do not add these metrics to a dashboard.
 
 ![Threadpool](threadpool.png)
+
 In this graph we see that the core size is 4 and the maximum pool size is 40. This is expected.
 The green line shows the number of active threads. It is going up, but not above the core size.
 
 ![Created and completed tasks](tasks.png)
+
 The total number of tasks created and the number of tasks completed follow each other closely. This is expected, as all requests have been completed.
 
 ![Tasks in queue](queue.png)
+
 The queue of tasks to be executed is growing, especially during the phase when 40 concurrent users were active. To process the tasks faster, more threads could have been created, but this is not done. Why not?
 
 ## Why is it not creating more threads?
@@ -313,15 +316,25 @@ Ok ... and what is more in the Java doc ...
 Ah ... this is exactly the behaviour we see. The queue is growing and at these moments the duration of requests is high.
 The core threads continue to process the requests, but no new threads are created.
 
-> [!QUESTION]
+## How to solve this?
+> [!TIP]
 > How to solve this? Can we prove that our solution solves it?
 
-There are several solutions to this problem, to name a few:
+There is no one size fits all solution, it depends on what you are trying to achieve. And in certain situations it depends on the architecture of the whole environment and what is expected of that service.
+For all solutions, it is important to think in advance about what you want to achieve, whether the solution fits and, importantly(!), to validate that the solution works as expected.
 
-- Remove the use of `@ManagedAsync`. This would allow Tomcat to handle each request in a separate thread.
-- Change the way you use async requests.
+Even for this simple setup, there are several solutions. To name a few:
+
+- Just increase the corePoolSize
+  - Just increasing the core size is an easy change
+  - Consideration: This does not change the behaviour of the solution, it just delays the tipping point.
+- Remove the use of `@ManagedAsync`.
+  - This is also a simple change. Instead of using a separate thread pool to handle the requests, use the Tomcat thread pool to handle each request by a thread.
+  - Consideration: This is a more fundamental change to your application. It changes from async to sync. In this example it is not a problem, but in other cases the impact may be greater.
 - Tune the `ManagedAsyncExecutorProvider' to make it work.
-- 
+  - By tuning the `ManagedAsyncExecutorProvider' we keep the architecture of the application the same, we just make sure we make more use of the up and down scaling of the thread pool.
+  - Consideration: this requires more tuning and testing to see if it behaves as expected.
+
 > [!TIP]
 > You can try some solutions yourself and see what the results are when you run the tests again!
 
@@ -339,11 +352,12 @@ protected BlockingQueue<Runnable> getWorkQueue() {
 
 Now we can redeploy the change and run the test again.
 
-
 ![Threadpool](threadpool_fixed.png)
+
 Now we see the active threads go up above the core size. Once the test is finished, you see after a while the number of threads going down again.
 
 ![Tasks in queue](queue_fixed.png)
+
 We see that the queue is almost empty the whole time. The metric is a sampled value. Most likely it reached the limit of 2 more often, as more threads have been created.
 But due to the sampling, you cannot see that.
 
@@ -352,4 +366,15 @@ And when we have a look at the results of K6 we see results as we hoped to see a
 
 # Summary
 
-<>
+> #### Observability: Every Engineer’s Job, Not Just Ops’ Problem
+> Observability is more about software engineering than it is about operations.   
+> by Martin Thwaites on [The New Stack](https://thenewstack.io/observability-every-engineers-job-not-just-ops-problem/)
+
+I totally agree with this and what Martin wrote in the article. I also think that this code challenge shows that this is not just an Ops problem.
+As a developer, you are the person who created and maintains the software. You should know how it works and which libraries are used.
+For the important parts of these libraries, observability should be activated or created to make sure you can see the actual behaviour.
+
+Practising your skills will also help you to be able to quickly see what is going on. If you have seen the graphs for the first time, you need time to understand what they mean.
+If you have seen them quite often, you can quickly see where they deviate from normal situations and where problems might be.
+
+I have some more challenges in mind, so **keep posted if you want to practice more**. I just need to find time to create the next challenge :smile:
