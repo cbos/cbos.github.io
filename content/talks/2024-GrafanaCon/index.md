@@ -47,8 +47,11 @@ During GrafanaCON I presented by talk and I also introduced the topic 'explore t
 
 #### Talk
 
-{{< youtube id=Z1E647KipA0 controls=true allowFullScreen=true  >}}
+{{< youtube id=Z1E647KipA0 controls=true allowFullScreen=true  >}} 
 
+#### Slides
+
+{{< slideshare key=F05fJTCgAF5Qwd >}}
 
 #### Photos
 
