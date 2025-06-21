@@ -1,7 +1,8 @@
 ---
 title: "Monitoring Buddy Hackathon - Day 1"
-date: 2025-06-21T21:50:53+02:00
-draft: true
+date: 2025-06-21T22:04:53+02:00
+slug: monitoring-buddy-hackathon-day-1
+pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
