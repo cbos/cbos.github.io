@@ -12,9 +12,8 @@ tags:
   - Grafana
 
 summary:
-  Progress on the second day of the hackathon, exploring the capabilities of Grafana MCP and LLM to find problems in the OpenTelemetry Demo setup.
-  And we had a break with climbing outdoor activity. 
-
+  The second day of the hackathon was a mix of activities. Next to the hackathon, we had a climbing outdoor activity.
+  In this blog post I will share the results of the hackathon on day 2 and some pictures of the climbing activity.
 ---
 
 After a day of rest on Sunday, what I am used to have, I started the second day early. 
