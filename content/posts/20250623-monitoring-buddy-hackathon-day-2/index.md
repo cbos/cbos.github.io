@@ -10,6 +10,11 @@ resources:
 
 tags:
   - Grafana
+  - OpenTelemetry
+  - LLM
+  - LangChain4j
+  - Quarkus
+  - MCP
 
 summary:
   The second day of the hackathon was a mix of activities. Next to the hackathon, we had a climbing outdoor activity.
