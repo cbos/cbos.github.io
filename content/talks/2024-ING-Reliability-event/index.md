@@ -36,7 +36,7 @@ carousel:
 
 ### About ING Reliability Event
 
-This event is an internal event at ING. The conferences was held in Amsterdam and online. In total there were 900 attendees (300 physical and 600 online)
+This event is an internal event at ING. The conference was held in Amsterdam and online. In total there were 900 attendees (300 physical and 600 online)
 
 #### Program the Reliability Event after the break
 
