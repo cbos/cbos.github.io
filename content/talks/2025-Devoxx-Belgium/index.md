@@ -17,6 +17,7 @@ conference:
   url: https://devoxx.be
 talk:
   title: How I solved production issues with OpenTelemetry (and how you can too)
+  url: https://m.devoxx.com/events/dvbe25/talks/25293/how-i-solved-production-issues-with-opentelemetry-and-how-you-can-too
   abstract:
     Ensuring the reliability of your Java applications is critical in today's fast-paced world. But how do you identify and fix production issues before they get worse? With cloud-native applications, it can be even more difficult because you can't log into the system to get some of the data you need. The answer lies in observability - and in particular, OpenTelemetry.<BR>
     <BR>
