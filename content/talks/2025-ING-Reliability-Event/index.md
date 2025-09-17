@@ -1,7 +1,12 @@
 ---
 title: "ING Reliability Event"
-date: 2025-08-05T02:00:00Z
+date: 2025-09-16T15:00:00Z
 pin: false
+
+
+resources:
+  - src: "**.{png,jpg,webp}"
+    title: "Image #:counter"
 
 
 tags:
@@ -20,9 +25,19 @@ talk:
     In a presentation and live demo, I will show the new Application and Chain Observability features
 
 
+carousel:
+  images:
+    - image: presenting1.jpeg
+    - image: presenting2.jpeg
+    - image: presenting3.jpeg
+
 ---
 
 ### About ING Reliability Event
 
-This event is an internal event at ING. The conferences was held in Amsterdam and online. 
+This event is an internal event at ING. The conference was held in Amsterdam and online.   
+The conference was attended by 250+ people physically and 750+ online. In total about 1000 people attended the conference.
 
+#### Photos
+
+{{< carousel items="1" height="600" unit="px" duration="5000" >}}

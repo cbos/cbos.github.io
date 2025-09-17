@@ -1,6 +1,6 @@
 ---
 title: "Devoxx Belgium"
-date: 2025-08-05T02:00:00Z
+date: 2025-09-17T13:15:00Z
 pin: false
 
 

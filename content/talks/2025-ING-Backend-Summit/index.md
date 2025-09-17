@@ -1,6 +1,6 @@
 ---
 title: "ING Backend Summit"
-date: 2025-08-05T02:00:00Z
+date: 2025-09-17T12:00:00Z
 pin: false
 
 
