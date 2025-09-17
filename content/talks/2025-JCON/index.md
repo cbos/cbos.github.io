@@ -40,6 +40,10 @@ carousel:
 
 {{< slideshare key="cSGMpae1hwkaJa" >}}
 
+#### Recording
+
+{{< youtube id=DlO0yYwQbvE controls=true allowFullScreen=true  >}}
+
 #### Details about code examples
 
 An overview of the demo setup I used during the presentation:   
