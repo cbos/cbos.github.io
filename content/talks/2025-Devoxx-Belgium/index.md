@@ -28,11 +28,24 @@ talk:
     Whether you're new to observability or a seasoned professional, this session will give you practical insights and tools to improve your application's observability and change the way how you handle production issues. Solving problems is much easier with the right data at your fingertips.
 
 
+carousel:
+  images:
+    - image: presentatie_devoxx1.jpg
+    - image: presentatie_devoxx2.jpg
+    - image: presentatie_devoxx3.jpg
+    - image: presentatie_devoxx4.jpg
+    - image: presentatie_devoxx5.jpg
+    - image: presentatie_devoxx6.jpg
+
 ---
 
 #### Slides
 
 {{< slideshare key="CaP9K9ITKTzB30" >}}
+
+#### Recording
+
+{{< youtube id=T5SEnaUKABw controls=true allowFullScreen=true  >}}
 
 #### Details about code examples
 
@@ -74,6 +87,10 @@ The goals of the challenges:
 Here is a list of available code challenges:
 
 {{< challenges >}}
+
+#### Photos
+
+{{< carousel items="1" height="600" unit="px" duration="5000" >}}
 
 #### Devoxx schedule
 
