@@ -12,6 +12,7 @@ tags:
   - Observability
   - OpenTelemetry
   - AOCC
+  - Puzzlers
 
 slug: application-observability-code-challenges
 aliases:

@@ -13,6 +13,7 @@ tags:
   - OpenTelemetry
   - AOCC
   - Java
+  - Puzzlers
 
 slug: aocc-challenge-01-step-by-step
 

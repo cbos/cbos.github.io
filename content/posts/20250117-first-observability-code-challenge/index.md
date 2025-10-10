@@ -12,6 +12,7 @@ tags:
   - Observability
   - OpenTelemetry
   - AOCC
+  - Puzzlers
   - Java
 
 slug: aocc-challenge-01
