@@ -1,7 +1,7 @@
 ---
 title: "Challenge 2 - Observability Challenge with virtual threads"
 date: 2025-10-10T22:20:11+02:00
-pinned: true
+pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
