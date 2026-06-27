@@ -2,6 +2,7 @@
 title: "Observability and AI Hackathon - Day 1"
 date: 2026-06-27T20:00:00+02:00
 slug: observability-and-ai-hackathon-day-1
+pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"

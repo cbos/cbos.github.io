@@ -2,7 +2,6 @@
 title: "Observable Framework ❤️ Downdetector"
 date: 2025-12-19T11:55:58+01:00
 slug: observable-framework-loves-downdetector
-pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
