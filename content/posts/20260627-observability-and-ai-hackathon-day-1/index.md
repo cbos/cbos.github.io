@@ -39,11 +39,11 @@ When I commit the code, as an engineer, I'm responsible, I can't blame the AI ag
 ### gcx after lunch
 
 Due to the heat outside, my activity in the afternoon was at a lower pace.    
-First, I had to update some of the tools I usually use, including the [Observability Toolkit](https://github.com/grafana/observability-toolkit).   
+First, I had to update some of the tools I usually use, including the [Observability Toolkit](https://github.com/cbos/observability-toolkit).   
 I have updated all components to the latest version.
 
 Next I started to play around with the `gcx` tool. I had to install it.
-You can follow the usual steps to install gcx at https://grafana.com/docs/grafana/latest/as-code/observability-as-code/grafana-cli/gcx/installation/
+You can follow the usual steps to install gcx at [Grafana gcx documentation](https://grafana.com/docs/grafana/latest/as-code/observability-as-code/grafana-cli/gcx/installation/)
 But I configured my systems with [Chezmoi](https://www.chezmoi.io), so I updated my config:   
 
 ```toml
@@ -259,6 +259,6 @@ This is useful to have it reviewed and correct spelling and grammar where needed
 
 ### Goal for the next day
 
-On [Devoxx](../../talks/2025-Devoxx-Belgium) and [JCON](../../talks/2025-JCON) I have talked about issues in applications had how you can find these problems with Grafana.    
+On [Devoxx](../../talks/2025-devoxx-belgium) and [JCON](../../talks/2025-jcon) I have talked about issues in applications had how you can find these problems with Grafana.    
 I am curious if Claude and `gcx` these problems can be found as well and if these problems can be solved.   
 Some holds for the [Application Observability Code Challenges](../application-observability-code-challenges). I am curious what the results will be.
