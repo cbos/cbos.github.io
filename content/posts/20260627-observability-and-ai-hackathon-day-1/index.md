@@ -11,8 +11,9 @@ resources:
 tags:
   - Grafana
   - gcx
-
-
+  - Observability
+  - AI
+  
 summary:  
   Day 1 of the OpenValue hackathon in Belgium. I explored AI tooling and got hands-on with gcx, Grafana's Observability as Code CLI tool.
 ---
@@ -20,7 +21,7 @@ summary:
 Together with my colleagues of OpenValue Utrecht we are having again a hackathon. This time in the east of Belgium, but again it is hot and sunny outside.   
 Temperature inside is also 30+ degrees ... that is pretty tough to keep going. But that gives nice moments to relax and enjoy the conversations with my colleagues.   
 
-![Hackathon setup](./hackathon_setup.jpg)
+![Hackathon setup](./hackathon_setup_cover.jpg)
    
 ![Weather picture](./weather.png)
 
