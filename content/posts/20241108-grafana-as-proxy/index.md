@@ -45,11 +45,11 @@ The setup looks like this:
 
 #### Connect with a service account
 
-In Grafana you can create a [service account] (https://grafana.com/docs/grafana/latest/administration/service-accounts/).
+In Grafana you can create a [service account](https://grafana.com/docs/grafana/latest/administration/service-accounts/).
 Such an account is not tied to a user and has it's own life cycle. A service account can also be revoked.
 
 ##### Step 1: Create a service account
-You start by creating a `service account' and giving it read permissions on a datasource:
+You start by creating a `service account` and giving it read permissions on a datasource:
 ![Create Service Account](create_service_account.png)
 
 Once the service account is created, create a `service account token':
