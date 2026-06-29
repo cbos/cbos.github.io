@@ -1,9 +1,8 @@
 ---
 title: "Observability and AI Hackathon - Day 2"
-date: 2026-06-29T20:04:38+02:00
+date: 2026-06-29T21:43:38+02:00
 slug: observability-and-ai-hackathon-day-2
-pinned: true
-draft: true
+pin: true
 
 resources:
   - src: "**.{png,jpg,webp}"
@@ -15,12 +14,10 @@ tags:
   - Observability
   - AI
   - OpenTelemetry
-  
-summary:
-  Day 2 of the hackathon: using the Grafana gcx debug-with-grafana skill with Claude to find the root cause of failing and slow services from metrics, logs and traces, and monitoring Claude's own token usage and cost with OpenTelemetry. And the team outing with Quad driving and paintball
----
 
-## Goals for today
+summary:
+  Day 2 of the hackathon. I used the Grafana gcx debug-with-grafana skill with Claude to find the root cause of failing and slow services from metrics, logs and traces, and monitoring Claude's own token usage and cost with OpenTelemetry. And the team outing with Quad driving and paintball.
+---
 
 For me the second day of the hackathon was a fresh start, with a lower temperature too. I want to learn a number of things today.
 - Usage of Claude agents and skills in combination with Observability  
@@ -394,7 +391,7 @@ The `debug-with-grafana` skill really helped with this.
 
 ### Usage information of Claude
 
-I used Claude with Opus 4.8 in this session. With '/usage' you can check the usage information of Claude.
+I used Claude with Opus 4.8 in this session. With `/usage` you can check the usage information of Claude.
 
 ```shell
  Session                     
@@ -464,8 +461,10 @@ The weather was really nice, we enjoyed both activities!
 
 ![](./team_outing.png)
 
+### Tomorrow
+
 Tomorrow there is another day for me at the hackathon. I am not sure yet I will do.    
-Last year (../monitoring-buddy-hackathon-day-3/) I tried to find the problems in the OpenTelemetry demo setup with the help of Grafana MCP, Langchain4J, Quarkus and more, to create a monitoring buddy.     
+[Last year](../monitoring-buddy-hackathon-day-3/) I tried to find the problems in the OpenTelemetry demo setup with the help of Grafana MCP, Langchain4J, Quarkus and more, to create a monitoring buddy.     
 That was not so successful, the bot did lack a lot of context and guidance. But the development of the AI tools evolved a lot, and I am looking forward to try again, but now with Claude, Grafana gcx and the skill files.    
 That is one idea I might try. And I like to do more with Observability as code. Maybe I have time to try both. Stay tuned!
 
