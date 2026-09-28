@@ -17,7 +17,7 @@ conference:
   url: https://devoxx.be
 talk:
   title: "Beyond system.out.println: Applying a Debugging Mindset at Scale"
-  url: https://m.devoxx.com/events/dvbe26/talks/21152/beyond-systemoutprintln-applying-a-debugging-mindset-at-scale
+  url: https://m.devoxx.com/events/dvbe26/talks/21152/beyond-system-out-println-applying-a-debugging-mindset-at-scale
   abstract:
     Debugging a consistently failing unit test is easy; you set a breakpoint and fix it. But how do you debug a "random" failure in a massive microservices landscape or a distributed monolith?<BR>
     <BR>
