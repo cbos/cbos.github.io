@@ -29,6 +29,20 @@ talk:
 
 ---
 
+### Slides
+
+Download the [presentation](presentation.pdf) as PDF
+
+### References
+
+More information in about other talks
+- [How I solved production issues with OpenTelemetry (and how you can too)](../2025-devoxx-belgium/) at Devoxx 2025
+- [How visualizing logs converted to traces can uncover performance problems](../2024-grafanacon) at GrafanaCON 2024
+
+### Recording 
+
+Recording will be added as soon as it is available
+
 #### Devoxx schedule
 
 ![Announcement](speaker_banner.png)
