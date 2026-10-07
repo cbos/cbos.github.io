@@ -27,6 +27,16 @@ talk:
     Debugging at scale requires a shift in mindset and tooling. It requires moving from the paradigm of "5 Whys" and 'logger.info' to a structured observational approach based on observability data.<BR>
     Based on production outages, I'll share how I uncovered the problems, the lessons I learned and how you can combine a debugging mindset with observability tooling like OpenTelemetry and the Grafana toolset to gain deeper insights.<BR>
 
+carousel:
+  images:
+    - image: photo2.jpg
+    - image: photo3.jpg
+    - image: photo4.jpg
+    - image: photo5.jpg
+    - image: photo6.jpg
+    - image: photo1.jpg
+
+
 ---
 
 ### Slides
@@ -42,6 +52,13 @@ More information in about other talks
 ### Recording 
 
 {{< youtube id=5VjB4t8aFWE controls=true allowFullScreen=true  >}}
+
+#### Photos
+
+{{< carousel items="1" height="600" unit="px" duration="5000" >}}
+
+Photos are taken by Dimitris Doutsiopoulos (https://ddphotography.gr)
+
 
 #### Devoxx schedule
 
