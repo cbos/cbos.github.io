@@ -41,7 +41,7 @@ More information in about other talks
 
 ### Recording 
 
-Recording will be added as soon as it is available
+{{< youtube id=5VjB4t8aFWE controls=true allowFullScreen=true  >}}
 
 #### Devoxx schedule
 
